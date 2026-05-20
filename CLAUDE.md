@@ -20,8 +20,8 @@ Each lab = one folder + README + YAML manifests + a git commit.
 | Lab | Topic | Status |
 |-----|-------|--------|
 | lab01-pods-namespaces | Pods, Namespaces | ✅ Done |
-| lab02-deployments | Deployments, ReplicaSets | 🔄 In progress |
-| lab03-services | ClusterIP, NodePort, LoadBalancer | ⏳ Pending |
+| lab02-deployments | Deployments, ReplicaSets | ✅ Done |
+| lab03-services | ClusterIP, NodePort, LoadBalancer | 🔄 In progress |
 | lab04-configmaps-secrets | ConfigMaps, Secrets | ⏳ Pending |
 | lab05-persistent-volumes | PV, PVC, StorageClass | ⏳ Pending |
 | lab06-resource-limits-hpa | LimitRange, HPA | ⏳ Pending |
