@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-with-storage
+  namespace: ai-platform
+spec:
+  containers:
+    - name: nginx
+      image: nginx:1.27.0
+      volumeMounts:
+        - name: nginx-storage
+          mountPath: /data
+  volumes:
+    - name: nginx-storage
+      persistentVolumeClaim:
+        claimName: nginx-pvc
