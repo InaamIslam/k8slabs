@@ -23,8 +23,8 @@ Each lab = one folder + README + YAML manifests + a git commit.
 | lab02-deployments | Deployments, ReplicaSets | ✅ Done |
 | lab03-services | ClusterIP, NodePort, LoadBalancer | ✅ Done |
 | lab04-configmaps-secrets | ConfigMaps, Secrets | ✅ Done |
-| lab05-persistent-volumes | PV, PVC, StorageClass | 🔄 In progressg |
-| lab06-resource-limits-hpa | LimitRange, HPA | ⏳ Pending |
+| lab05-persistent-volumes | PV, PVC, StorageClass | ✅ Done  |
+| lab06-resource-limits-hpa | LimitRange, HPA | 🔄 In progress |
 | lab07-ingress | Ingress controller, TLS | ⏳ Pending |
 | lab08-rbac | Roles, RoleBindings, ServiceAccounts | ⏳ Pending |
 | lab09-troubleshooting | Break + fix scenarios | ⏳ Pending |
